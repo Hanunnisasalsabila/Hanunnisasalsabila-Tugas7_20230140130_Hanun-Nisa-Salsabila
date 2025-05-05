@@ -1,0 +1,55 @@
+body {
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+  background-image: url('gambar/thumb-1920-1130469.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #2e7d32;
+}
+
+h2 {
+  color: #ffeb3b;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #555;
+}
+
+ul {
+  font-size: 1.2em;
+  list-style-type: disc;
+  padding-left: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px #888;
+  border: 1px solid #8bc34a;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #2e7d32;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease;
+  text-shadow: 1px 1px #555;
+  border: 2px solid #ffc107;
+  padding: 8px 15px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+  color: #4caf50;
+  border-color: #ffe082;
+  background-color: rgba(255, 255, 255, 0.7);
+}
