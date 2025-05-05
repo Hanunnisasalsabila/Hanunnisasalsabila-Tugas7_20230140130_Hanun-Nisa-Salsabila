@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-image: url('gambar/thumb-1920-1138740.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #f0e68c;
+    text-shadow: 1px 1px #333;
+}
+
+header {
+    background-color: rgba(40, 40, 70, 0.8);
+    color: #e6e5de;
+    padding: 15px 30px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 50px;
+    border: 2px solid #665a33;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+    font-size: 2.8em;
+    letter-spacing: 0.15em;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+    
+
+}
+
+nav a {
+    background-color: #554477;
+    color: #fdd835;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 20px;
+    border: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-width: 150px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #776699;
+    color: #fffacd;
+}
+
+main {
+    background-color: rgba(60, 60, 100, 0.7);
+    color: #f9f9f7;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 4px 4px #222;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
